@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* achtergrondkleur */
+    color: #333; /* tekstkleur */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* hoofdkleur */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f8f9fa; /* accentkleur 2 */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40; /* accentkleur 1 */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.recept-foto {
+    width: 200px; /* Breedte van de afbeelding */
+    height: auto; /* Behoudt de verhoudingen van de afbeelding */
+    margin: 10px; /* Marge rondom de afbeelding */
+    display: inline-block; /* Laat afbeeldingen naast elkaar staan */
+}
+
+.recept-naam {
+    text-align: center; /* Centreer de naam van het recept */
+    font-size: 18px; /* Grootte van de lettertype van de naam */
+    margin-bottom: 5px; /* Ruimte onder de naam */
+}
